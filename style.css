@@ -1,0 +1,29 @@
+body{color: black;}
+
+
+header{
+
+    text-align: center;
+}
+
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li a{
+    color: darkslategrey;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+
+main{
+    text-align: center;
+    color: darkslategray;
+}
+
+footer{
+    text-align: center;
+    color: darkolivegreen;
+}
