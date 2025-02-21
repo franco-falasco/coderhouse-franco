@@ -1,0 +1,25 @@
+//mixin con parametros
+
+@mixin grid ($grid, $column, $row){
+    display: $grid;
+    grid-template-columns: $column;
+    grid-template-rows: $row;
+}
+
+
+
+//mixin sin parametro
+
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-dos ($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
